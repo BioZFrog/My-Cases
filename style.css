@@ -141,7 +141,6 @@ img {
   left: 62%;
 }
 
-
 h3 {
   font-family: "Baloo Paaji 2", sans-serif;
   font-optical-sizing: auto;
@@ -152,13 +151,125 @@ h3 {
   justify-content: end;
 }
 
-.decor{
+.decor {
+  position: absolute;
+  top: 23%;
+  right: 3.8%;
+  width: 1200px;
+  height: 900px;
+  border-style: dotted;
+}
+
+@media only screen and (max-width: 768px) {
+  .Heading {
+    position: relative;
+    text-align: center;
+    right: 0;
+  }
+
+  /* Stack cases vertically for mobile */
+  .case {
     position: absolute;
-    top: 23%;
-    right:3.8%;
-    width: 1200px;
-    height: 900px;
-    border-style: dotted;
+    top: 10%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case2 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case3 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case4 {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case5 {
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case6 {
+    position: absolute;
+    top: 110%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case7 {
+    position: absolute;
+    top: 130%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case8 {
+    position: absolute;
+    top: 150%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case9 {
+    position: absolute;
+    top: 170%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case10 {
+    position: absolute;
+    top: 190%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case11 {
+    position: absolute;
+    top: 210%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case12 {
+    position: absolute;
+    top: 230%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case13 {
+    position: absolute;
+    top: 250%;
+    left: 35%;
+    height: auto;
+  }
+
+  .case14 {
+    position: absolute;
+    top: 270%;
+    left: 35%;
+    height: auto;
+  }
+
+  /* Remove the large decor for mobile */
+  .decor {
+    display: none;
+  }
 }
 
 html {
@@ -166,7 +277,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 12px; 
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -174,9 +285,9 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ffffff; 
+  background-color: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #d6cece; 
+  background-color: #d6cece;
 }
